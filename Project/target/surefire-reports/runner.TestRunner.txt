@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 644.8 s <<< FAILURE! -- in runner.TestRunner
+Thomas Cook #8.Test4 -- Time elapsed: 63.51 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[ ]> but was:<[Minimum Load Value 3000 USD eqv.]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at pages.ForexCardActions.loungePage(ForexCardActions.java:520)
+	at stepdefinition.StepDef4.verify_the_page_four(StepDef4.java:31)
+	at ✽.verify the page four(file:///C:/Users/10827683/OneDrive%20-%20LTIMindtree/GladBDD/Project/features/thomascook4.feature:7)
+
